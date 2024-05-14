@@ -21,9 +21,7 @@ public class Test {
 
 		int is = my.check1(user_id, user_pw);
 
-
-	 
-		while (is==2) {
+		while (is == 2) {
 			ArrayList<userDTO> list = my.getUser();
 			System.out.println("1.입력 2.조회 3.지우기 4.수정 5.검색 6.종료");
 			int num = sc.nextInt();
@@ -94,5 +92,6 @@ public class Test {
 			}
 
 		}
-	}
+		System.out.println("hi");
+	}// main 끝
 }
